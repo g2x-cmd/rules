@@ -630,7 +630,6 @@ rules:
   - RULE-SET,Netflix,🎥 Netflix
   - RULE-SET,Spotify,🎵 Spotify
   - RULE-SET,Discord,💬 Discord
-  - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,CLAUDEAI,🤖 ClaudeAI服务
   - RULE-SET,OPENAI,🤖 OpenAI服务
   - RULE-SET,GROKAI,🩻 GrokAI服务
@@ -643,6 +642,7 @@ rules:
   - RULE-SET,OPENAIMRS,🤖 OpenAI服务
   - RULE-SET,Developer,👨‍💻 开发者
   - RULE-SET,Web3,🌐 Web3服务
+  - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,category-ads-all,🛑 全球拦截
   - RULE-SET,BanAD,🛑 全球拦截
   - RULE-SET,BanProgramAD,🍃 应用净化
