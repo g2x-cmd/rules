@@ -626,13 +626,18 @@ proxy-groups:
 rules:
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
   - RULE-SET,Direct_Rules,🎯 全球直连
+  - RULE-SET,YouTube,📺 YouTube
+  - RULE-SET,Netflix,🎥 Netflix
+  - RULE-SET,Spotify,🎵 Spotify
+  - RULE-SET,Discord,💬 Discord
+  - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,CLAUDEAI,🤖 ClaudeAI服务
-  - RULE-SET,GOOGLE,🍟 Google服务
   - RULE-SET,OPENAI,🤖 OpenAI服务
   - RULE-SET,GROKAI,🩻 GrokAI服务
   - RULE-SET,EDGEcopilot,🤖 EdgeCopilot
   - RULE-SET,OTHERAI,🤖 其他AI服务
   - RULE-SET,CiciAI,🤖 CiciAI服务
+  - RULE-SET,GOOGLE,🍟 Google服务
   - RULE-SET,GOOGLEMRS,🍟 Google服务
   - RULE-SET,GOOGLEIP,🍟 Google服务
   - RULE-SET,OPENAIMRS,🤖 OpenAI服务
@@ -641,18 +646,12 @@ rules:
   - RULE-SET,category-ads-all,🛑 全球拦截
   - RULE-SET,BanAD,🛑 全球拦截
   - RULE-SET,BanProgramAD,🍃 应用净化
-  - RULE-SET,GoogleCN,🎯 全球直连
   - RULE-SET,SteamCN,🎯 全球直连
   - RULE-SET,Microsoft,Ⓜ️ 微软服务
   - RULE-SET,MicrosoftMRS,Ⓜ️ 微软服务
   - RULE-SET,Apple,🍎 苹果服务
   - RULE-SET,AppleMRS,🍎 苹果服务
-  - RULE-SET,ProxyMedia,🌍 国外媒体
-  - RULE-SET,YouTube,📺 YouTube
-  - RULE-SET,Netflix,🎥 Netflix
   - RULE-SET,Bilibili,📺 哔哩哔哩
-  - RULE-SET,Spotify,🎵 Spotify
-  - RULE-SET,Discord,💬 Discord
   - RULE-SET,Epic,🎮 游戏平台
   - RULE-SET,Steam,🎮 游戏平台
   - RULE-SET,Khan,📚 教育资源
