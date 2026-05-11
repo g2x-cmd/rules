@@ -9,7 +9,6 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  respect-rules: true
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -27,12 +26,6 @@ dns:
     rule-set:Direct_Rules:
       - 223.5.5.5
       - 119.29.29.29
-    rule-set:ChinaDomain:
-      - 223.5.5.5
-      - 119.29.29.29
-    rule-set:SteamCN:
-      - 223.5.5.5
-      - 119.29.29.29
     geosite:cn,apple,steam,onedrive,category-games@cn:
       - 223.5.5.5
       - 119.29.29.29
@@ -45,9 +38,11 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query#🚀 节点选择
     - https://dns.google/dns-query#🚀 节点选择
+    - https://dns.quad9.net/dns-query#🚀 节点选择
   fallback:
     - https://cloudflare-dns.com/dns-query#🚀 节点选择
     - https://dns.google/dns-query#🚀 节点选择
+    - https://dns.quad9.net/dns-query#🚀 节点选择
   fallback-filter:
     geoip: true
     geoip-code: CN
