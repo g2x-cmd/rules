@@ -170,4 +170,5 @@ payload:
   - DOMAIN-SUFFIX,tronscan.org
   - DOMAIN-SUFFIX,byabcd.com
   - DOMAIN-SUFFIX,ng-dex.com
+  - IP-CIDR,159.138.85.48/32
 
